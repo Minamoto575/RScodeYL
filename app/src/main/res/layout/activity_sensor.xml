@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<EditText
+    android:id="@+id/ip"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:hint="请输入服务端ip地址"
+    />
+    <LinearLayout
+    android:id="@+id/lin"
+    android:layout_width="368dp"
+    android:layout_height="80dp"
+    >
+    <Button
+    android:id="@+id/start"
+    android:layout_width="75dp"
+    android:layout_height="80dp"
+
+    android:text="开始记录数据"
+    />
+
+    </LinearLayout>
+    <Button
+    android:id="@+id/AccSyd"
+
+    android:layout_width="150dp"
+    android:layout_height="80dp"
+    android:text="发送acc校正子"
+    />
+
+    <Button
+        android:id="@+id/AccKey"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="发送acc加密数据"
+        />
+
+
+    <Button
+        android:id="@+id/GyrSyd"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="发送Gyr校正子"
+        />
+
+    <Button
+        android:id="@+id/GyrKey"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="发送Gyr加密数据"
+        />
+
+
+</LinearLayout>
